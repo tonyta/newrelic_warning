@@ -38,4 +38,5 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'heroku_rails_deflate', group: :production
 gem 'newrelic_rpm'
