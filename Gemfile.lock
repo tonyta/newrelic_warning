@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/tonyta/rpm
+  revision: 4b3c20034093961c0e9c48f073fadb72d857f8fe
+  branch: ensure-initializer-order
+  specs:
+    newrelic_rpm (4.7.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -39,6 +46,10 @@ GEM
     concurrent-ruby (1.0.5)
     erubis (2.7.0)
     execjs (2.7.0)
+    heroku_rails_deflate (1.0.3)
+      actionpack (>= 3.2.13)
+      activesupport (>= 3.2.13)
+      rack (>= 1.4.5)
     hike (1.2.3)
     i18n (0.9.1)
       concurrent-ruby (~> 1.0)
@@ -110,8 +121,10 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
+  heroku_rails_deflate
   jbuilder (~> 2.0)
   jquery-rails
+  newrelic_rpm!
   rails (= 4.1.16)
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
